@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.main-title {
+    font-size: 36px;
+}
+
+/* Carousel styles */
+.carousel-container {
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+/* Sub-images styles */
+.sub-images {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sub-images img {
+    margin: 0 10px;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+/* Price table styles */
+.price-table {
+    text-align: center;
+    padding: 20px;
+}
+
+.price-table h2 {
+    font-size: 24px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 24px;
+    }
+
+    .carousel img, .sub-images img {
+        max-height: 150px;
+    }
+}
